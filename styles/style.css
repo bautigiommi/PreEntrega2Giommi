@@ -99,7 +99,7 @@ a {
     transition: all o.4s;
 }
 
-.submenu {
+.subMenu {
     position: absolute;
     display: none;
     background-color: #333333;
@@ -111,7 +111,7 @@ a {
     transition: all 500ms ease-out;
 }
 
-.submenu li a {
+.subMenu li a {
     display: block;
     padding: 15px;
     color: #fff;
@@ -119,7 +119,7 @@ a {
     text-decoration: none;
 }
 
-.centro li:hover .submenu {
+.centro li:hover .subMenu {
     visibility: visible;
     opacity: 1;
     display: block;
@@ -405,12 +405,12 @@ ul ul li {
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
     .grid-main {
 
         display: grid;
-        grid-template-columns: auto auto auto ;
-        grid-template-rows: auto auto  ;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
         height: 200%;
         justify-content: space-around;
 
@@ -451,7 +451,7 @@ ul ul li {
 
     .submenu {
         width: 100%;
-    }  
+    }
 }
 
 /* RESPONSIVE INDEX */
