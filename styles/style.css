@@ -172,7 +172,17 @@ li {
 
 .yo {
   padding: 20px;
-  margin: 20px; }
+  margin: 20px;
+  font-size: 150%; }
+
+.imgCentro {
+  width: 300px;
+  margin: 15px;
+  box-shadow: 0px 13px 25px black;
+  transition: all 550ms ease-out; }
+
+.imgCentro:hover {
+  transform: translateY(-3%); }
 
 /* QUIEN SOY */
 /* FRASES */
@@ -386,22 +396,47 @@ li {
 
 /* RESPONSIVE FRASES */
 /* RESPONSIVE YO */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
   .grid-yo {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    height: 896; }
+    height: 1056;
+    width: 100%; }
   .imgCentro {
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     grid-column: 1;
-    grid-row: 1; }
+    grid-row: 1;
+    width: 200px; }
   .p-one {
     grid-row: 2/3;
     grid-column: 1; }
   .p-two {
     grid-column: 1;
-    grid-row: 4; } }
+    grid-row: 4; }
+  article div p {
+    font-size: 40%; } }
+
+@media only screen and (min-width: 511px) and (max-width: 1253px) {
+  .grid-yo {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    height: 1056; }
+  .imgCentro {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px; }
+  .p-one {
+    grid-row: 2/3;
+    grid-column: 1; }
+  .p-two {
+    grid-column: 1;
+    grid-row: 4; }
+  article div p {
+    font-size: 70%; } }
 
 /* RESPONSIVE YO */
